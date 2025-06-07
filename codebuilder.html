@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="sl">
+  <head>
+    <!--Visual studio code glavo naredi skoraj sam po sebi-->
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+    <title>Code builder</title>
+  </head>
+  <body>
+    <main>
+      <!-- Navigacija, kjer je ikona in kratek nabor strani za hiter dostop do njih.-->
+      <nav>
+        <a id="ikona_v_navigaciji" href="index.html">
+          <img src="slike/logo_leskovsek.svg" alt="logo" style="width: 100px"
+        /></a>
+        <ul>
+          <li><a href="index.html">Domov</a></li>
+          <li>
+            <a href="praksa.html">Uporaba v učilnici</a>
+            <ul>
+              <!--Seznam v seznamu, ki se pokaže ob prehodu z miško čez element-->
+              <li><a href="zakaj.html">Zakaj Minecraft?</a></li>
+              <li><a href="codebuilder.html">Code builder</a></li>
+              <li><a href="agent.html">Agent</a></li>
+            </ul>
+          </li>
+          <li><a href="viri.html">Povezave in viri</a></li>
+        </ul>
+      </nav>
+
+      <section>
+        <!--Glavni del, section-->
+
+        <article>
+          <!--"Članek", sestavljen iz besedila in področja za slike.-->
+          <div class="besedilo">
+            <!--Del članka, namenjen besedilu-->
+            <h2>Code Builder</h2>
+
+            <p>
+              Code Builder je eno od ključnih stvari v Minecraft Education
+              Edition, če se pogovarjamo o programiranju, ki učencu omogoča
+              učenje programiranja skozi (najpogosteje) premikanje blokov.
+              Podpira pa tudi Python ali JavaScript, zato je primeren tako za
+              učence v osnovni šoli kot tudi za programerje, ki so kar vešči v
+              drugih programskih jezikih.
+            </p>
+
+            <p>
+              Laik bi si predstavljal, da se programiranje v Code builderju
+              začne in konča z agentom. Temu namreč ni tako. S Code builderjem
+              se lahko "igramo" z veliko več kot samo z nekim možicem, ki sam po
+              sebi ne dela ničesar. Omogoča spreminjanje časa in vremena v igri,
+              lahko postavljamo pogoje z if / else stavki, izvajamo zanke,
+              izjavno logiko (and, or in podobno), računamo vsote, korene,
+              absolutne vrednosti in tako dalje..
+            </p>
+          </div>
+
+          <div class="slike">
+            <!--Del članka, namenjen slikam-->
+            <img
+              src="slike/codebuilder1.png"
+              alt="code buidler"
+              style="max-width: 100%"
+            />
+            <figcaption>
+              Posnetek zaslona, Minecraft Education (6. 6. 2025).
+            </figcaption>
+          </div>
+        </article>
+      </section>
+      <footer>
+        <!--Noga-->
+
+        <!--Hitre povezave do pomembnejših strani v spletnem mestu-->
+        <a href="index.html">Domov</a> <a href="praksa.html">V praksi</a>
+        <a href="viri.html">Viri</a>
+        <hr style="width: 200px" />
+        <!--Podatki o avtorju in leto izdelave spletišča-->
+        <p>
+          Miha Leskovšek |
+          <a href="https://www.pef.uni-lj.si/" target="_blank">UL PEF</a> | 2025
+        </p>
+
+        <hr style="max-width: 500px" />
+        <!--Črta-->
+
+        <!--Licenca, pridobljena iz https://creativecommons.org/get-cc-savvy/get-a-cc-license/-->
+        <a href="http://127.0.0.1:5500/index.html">Minecraft v izobrazevanju</a>
+        © 2025 by
+        <a href="https://creativecommons.org" target="_blank">Miha Leskovšek</a>
+        is licensed under
+        <a href="https://creativecommons.org/licenses/by-sa/4.0/"
+          >CC BY-SA 4.0</a
+        >
+        <img
+          src="https://mirrors.creativecommons.org/presskit/icons/cc.svg"
+          style="max-width: 1em; max-height: 1em; margin-left: 0.2em"
+        />
+        <img
+          src="https://mirrors.creativecommons.org/presskit/icons/by.svg"
+          style="max-width: 1em; max-height: 1em; margin-left: 0.2em"
+        />
+        <img
+          src="https://mirrors.creativecommons.org/presskit/icons/sa.svg"
+          style="max-width: 1em; max-height: 1em; margin-left: 0.2em"
+        />
+      </footer>
+    </main>
+  </body>
+</html>
